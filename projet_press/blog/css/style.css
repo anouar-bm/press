@@ -1,0 +1,114 @@
+img {
+	max-width: 100%;
+}
+.main-banner {
+	width: 100%;
+	height: 50vh;
+	background: url("../img/welcome.jpg") center;
+	background-size: 100%;
+}
+.main-blog-card {
+	width: 90%;
+}
+.category-aside {
+	width: 100%;
+}
+.main-blog {
+	width: 70%;
+}
+.aside-main {
+	width: 30%;
+}
+
+.w-450 {
+	width: 450px;
+}
+.vh-100 {
+	min-height: 100vh;
+}
+/*admin*/
+.section-1 {
+	width: 100%;
+	padding: 15px;
+}
+.main-table {
+   width: 90%;
+   max-width: 700px;
+}
+.react-btns i {
+	font-size: 24px;
+	color: #222;
+	cursor: pointer;
+}
+.react-btns a  {
+	text-decoration: none;
+	color: #222;
+	cursor: pointer;
+}
+.react-btns a:hover  {
+	opacity: .8;
+}
+.react-btns .like:hover  {
+	color: #0088FF;
+}
+.react-btns .liked  {
+	color: #0088FF;
+}
+.comments .comment span {
+   color: #0088FF;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .aside-main {
+  	display: none;
+  }
+  .main-blog {
+	width: 100%;
+  }
+  .main-blog-card {
+	width: 100%;
+}
+}
+.cards .card__items{
+    border-radius: 8px;
+    width: 220px;
+    height: 150px;
+}
+.card__items--blue{
+    background-color:#3498db;
+}
+.card__items--blue i{
+    color: #ffffff;
+}
+.card__items--rose{
+    background-color:#e74c3c;
+}
+.card__items--rose i{
+    color:#ffffff;
+}
+
+.card__items--green{
+    background-color:#2ecc71;
+}
+.card__items--green i{
+    color:#ffffff;
+}
+.card__items--purple{
+    background-color:#9b59b6;
+}
+.card__items--purple i{
+    color:#ffffff;
+}
+.card__items--gradient{
+    /* background: linear-gradient(110.42deg, #00C1FE 18.27%, #eb1515 91.84%); */
+    background-color: #f39c12;
+
+}
+.card__items--gradient i{
+    color:#ffffff;
+}
+.nbr{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
